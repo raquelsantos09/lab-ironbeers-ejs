@@ -1,0 +1,9 @@
+<div class="main-beers">
+    
+<% beers.forEach(beer => { %>
+    <h1><%=beer.name%> </h1>
+<img class = "beer-img" src="<%= beer.image_url%> " alt="beer" /> 
+<p><%=beer.description %> </p>
+<p><%=beer.tagline%></p>
+<% }) %>
+</div>
